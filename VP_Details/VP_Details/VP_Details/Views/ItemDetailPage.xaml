@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VP_Details.Views.ItemDetailPage"
+             Title="{Binding Title}">
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="{Binding Item.Text}" FontSize="Medium" Font="Bold"/>
+        <Label Text="Party Affiliation:" FontSize="Small" />
+        <Label Text="{Binding Item.PartyAff}" FontSize="Medium"/>
+        <Label Text="Term:" FontSize="Small" />
+        <Label Text="{Binding Item.Term}" FontSize="Medium"/>
+        <Label Text="BirthPlace:" FontSize="Small" />
+        <Label Text="{Binding Item.BirthPlace}" FontSize="Medium"/>
+        <Label Text="Born:" FontSize="Small" />
+        <Label Text="{Binding Item.Born}" FontSize="Medium"/>
+        <Label Text="Died:" FontSize="Small" />
+        <Label Text="{Binding Item.Died}" FontSize="Medium"/>
+        <Label Text="Served Under:" FontSize="Small" />
+        <Label Text="{Binding Item.ServedUnder}" FontSize="Medium"/>
+    </StackLayout>
+</ContentPage>
